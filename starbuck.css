@@ -113,4 +113,46 @@ a #color-text {
 .invisible{
     display: none;
 }
+.icons-social{
+    width: 40px;
+}
+/* FOOTER */
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 -1px  3px 0.5px #00000035;
+}
+.contain-footer{
+    display: flex;
+    flex-direction: row;
+    color: #565a5d;
+    margin: 30px 60px;
+    padding-top: 60px;
+    
 
+}
+
+
+footer li a {
+    color: inherit; /* Inherit the text color from the parent element */
+    text-decoration: none; /* Remove underline */
+    pointer-events: none; /* Prevent click events on the links (optional) */
+    list-style-type: none;
+    
+}
+ul {
+    list-style-type: none;
+}
+.links-part-one{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #565a5d;
+    margin-right: 50px;
+    line-height: 35px;
+
+}
+.links-part-one:hover{
+    color: #000000;
+}
+#principal{
+    color: #000;
+    font-weight: bold;
+}
