@@ -84,67 +84,90 @@ body{
 .button-cards:hover{
     background-color: #ea3244;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-    background-color:  #1E3932;
-    position: relative;
-    margin-bottom: 30px;
-    height: 299.5px;
+.cointeiner-two{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
-.contenedor-texto{
-    display: grid;
-    
-}
-
-#tarjeta-uno .contenedor-imagen{
+.conteiner-end .rosa{
     width: 50%;
+    display: flex;
+    flex-direction: column;
 }
-#tarjeta-uno .contenedor-imagen .imagen-starbucks{
+.conteiner-end.rosa{
+    background-color: #f3b2d0;
+}
+.conteiner-end.azul{
+    background-color: #b2d9f3;
+}
+.conteiner-end .conteiner-end-image{
     width: 100%;
 }
-.contenedor-texto{
-    position: absolute;
-    color: white;
-    text-align: center;
-    width: 300px;
+.conteiner-end-image img{
+width: 100%;
 }
-.contenedor-interno{
-    display: inline-block;
-    height: 340px;
+.conteiner-end-text{
+    display: flex;
+    flex-direction: column;
+    height: 215px;
     justify-content: center;
     align-items: center;
-    margin: 0 48px 0 ;
+    color: #e83e8c;
+
+}
+.conteiner-end-text-azul{
+    display: flex;
+    flex-direction: column;
+    height: 215px;
+    justify-content: center;
+    align-items: center;
+    color: #3e99e8;
+
 }
 
 
-#tarjeta-tres{
-    background-color: red;
-    position: relative;
+.conteiner-end-text-p{
+    font-size: 16px;
+    font-weight: bold;
 }
-#tarjeta-tres .contenedor-imagen{
-    width: 50%;
+.conteiner-end-text-p{
+    display: flex;
+    flex-direction: column;
+    height: 215px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
 }
-#tarjeta-tres .contenedor-imagen .imagen-starbucks{
-    max-width: 100%;
-} */
+
+
+.button-cards-end{
+    margin-top: 16px;
+    border: 1px solid #e83e8c;
+    color: #e83e8c;
+    background-color: #f3b2d0;
+    font-weight: 700;
+    padding: 10px 5px;
+    border-radius: 25px;
+    width: 100px;
+    cursor: pointer;
+}
+.button-cards-end:hover{
+    background-color:#ae6486;
+    color: white;
+}
+.button-cards-end-azul{
+    margin-top: 16px;
+    border: 1px solid #3e99e8;
+    color: white;
+    background-color: #3e99e8;
+    font-weight: 700;
+    padding: 10px 5px;
+    border-radius: 25px;
+    width: 100px;
+    cursor: pointer;
+}
+.button-cards-end-azul:hover{
+    background-color:#7dbfec;
+    color: white;
+}
