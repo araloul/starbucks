@@ -1,0 +1,150 @@
+ *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #000;
+}
+body{
+    font-family:"Roboto", serif;
+}
+
+.container-cards{
+    height: 347px;
+    background-color: #1E3932;
+    display: flex;
+    margin-bottom: 30px;
+}
+.container-cards-image{
+    width: 50%;
+}
+.container-cards .container-cards-image .image-woman{
+    width: 84%;
+}
+
+.container-cards .container-cards-image .image-frappe{margin-left: 190px;
+    width: 73.5%;
+}
+
+.container-cards .container-cards-image .image-coffe{
+    width: 73.5%;
+}
+.container-cards .container-cards-image .image-bottles{
+    width: 74%;
+}
+
+
+.container-cards-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 32px 16px;
+}
+.container-cards.dos{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #0034adcd;
+}
+.container-cards.tres{
+    
+    background-color: #ea1d31;
+}
+.container-cards.cuatro{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #1E3932;
+}
+.title-cards{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.text-cards{
+    line-height: 35px;
+    margin-bottom: 14px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.button-cards{
+    border: 1px solid white;
+    color: white;
+    background-color: #ea1d31;
+    font-weight: 700;
+    padding: 10px 5px;
+    border-radius: 25px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.button-cards:hover{
+    background-color: #ea3244;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+    background-color:  #1E3932;
+    position: relative;
+    margin-bottom: 30px;
+    height: 299.5px;
+}
+.contenedor-texto{
+    display: grid;
+    
+}
+
+#tarjeta-uno .contenedor-imagen{
+    width: 50%;
+}
+#tarjeta-uno .contenedor-imagen .imagen-starbucks{
+    width: 100%;
+}
+.contenedor-texto{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 300px;
+}
+.contenedor-interno{
+    display: inline-block;
+    height: 340px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 48px 0 ;
+}
+
+
+#tarjeta-tres{
+    background-color: red;
+    position: relative;
+}
+#tarjeta-tres .contenedor-imagen{
+    width: 50%;
+}
+#tarjeta-tres .contenedor-imagen .imagen-starbucks{
+    max-width: 100%;
+} */

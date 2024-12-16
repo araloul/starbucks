@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    padding: 20px;
+    height: 90px;
+}
+.topnavbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #000000DE;
+    height: 50px;
+}
+
+.topnavbar .nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+}
+.topnavbar .nav .nav-item .item-image{
+    max-width: 50px;
+}
+.topnavbar .nav .nav-item a{
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+.topnavbar .nav .nav-item.left a:hover{
+    color: #034f2e;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness:300;
+    text-underline-offset: 30px;  
+}
+.topnavbar .nav .nav-item.right a:hover{
+    color: #565a5d;
+    
+}
+
+.left-nav{
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif ;
+    letter-spacing: 1.6px;
+    
+}
+
+.nav-item.button {
+    border: 1px solid #000;
+    height: 33px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item.button.ingresar{
+    width: 97px;
+}
+.nav-item.button.unete{
+    width: 97px;
+    /* background-color: #000; */
+
+    
+}
+a #color-text {
+    color: white;
+}
+
+.main{
+    margin: 0 45px;
+}
+.cookie-banner {
+    padding: 30px ;
+    border-top: 1px solid;
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+}
+
+.banner-text-container{
+    flex-grow: 1;
+}
+
+.cookie-banner .banner-text-bold{
+    font-weight: bold;
+}
+
+.cookie-banner .banner-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookie-banner .banner-button-container .banner-button {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 10px 5px;
+    border-radius: 25px;
+    width: 100px;
+    cursor: pointer;
+}
+.invisible{
+    display: none;
+}
+
