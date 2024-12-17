@@ -131,9 +131,9 @@ footer{
 
 
 footer li a {
-    color: inherit; /* Inherit the text color from the parent element */
-    text-decoration: none; /* Remove underline */
-    pointer-events: none; /* Prevent click events on the links (optional) */
+    color: inherit; 
+    text-decoration: none;
+    pointer-events: none; 
     list-style-type: none;
     
 }
