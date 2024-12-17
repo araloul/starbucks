@@ -113,9 +113,7 @@ a #color-text {
 .invisible{
     display: none;
 }
-.icons-social{
-    width: 40px;
-}
+
 /* FOOTER */
 footer{
     font-family: Arial, Helvetica, sans-serif;
@@ -139,9 +137,7 @@ footer li a {
     list-style-type: none;
     
 }
-ul {
-    list-style-type: none;
-}
+
 .links-part-one{
     font-family: Arial, Helvetica, sans-serif;
     color: #565a5d;
@@ -155,4 +151,21 @@ ul {
 #principal{
     color: #000;
     font-weight: bold;
+}
+.contain-footer-icons{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+}
+.icons-social{
+        width: 40px;
+        text-align: center;
+}
+.contain-footer-end{
+    display: inline-block;
 }
