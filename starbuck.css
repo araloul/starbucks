@@ -76,7 +76,7 @@ a #color-text {
 }
 
 .main{
-    margin: 0 45px;
+    margin: 0 45px 60px;
 }
 .cookie-banner {
     padding: 30px ;
@@ -143,6 +143,7 @@ footer li a {
     color: #565a5d;
     margin-right: 50px;
     line-height: 35px;
+    cursor: pointer;
 
 }
 .links-part-one:hover{
@@ -155,17 +156,43 @@ footer li a {
 .contain-footer-icons{
     display: flex;
     flex-direction: row;
-    width: 800px;
     justify-content: center;
     align-items: center;
+    margin-top: 200px;
+}
+
+.contain-footer-icons ul {
+    display: flex;
+    justify-content: center;
+    margin: 0 -10px; 
 }
 ul {
     list-style-type: none;
+    height: 40px;
+    align-items: center;
+    margin: 0 60px;
+    justify-content: space-between;
+
 }
 .icons-social{
         width: 40px;
         text-align: center;
+        margin: 20px;
+        cursor: pointer;
 }
-.contain-footer-end{
-    display: inline-block;
+.contain-footer-end ul{
+    display: flex;
+    justify-content: center;
+    color: #565a5d;
+    cursor: pointer;
+    margin: 50px 0;
+}
+.copy{
+    text-align: center;
+    font-size: 15px;
+}
+.mx{
+    text-align: center;
+    color: #565a5d;
+    font-size: 10px;
 }
